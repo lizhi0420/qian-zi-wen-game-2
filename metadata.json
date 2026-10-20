@@ -1,0 +1,6 @@
+{
+  "name": "千字文·国风识字奇遇记",
+  "description": "专为小学生打造的国风水彩《千字文》互动识字游戏，集拼音拼读、听音辨字、汉字翻翻乐、诗句排序与有声国风绘本于一体。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
