@@ -1,0 +1,698 @@
+[
+  {
+    "id": 1,
+    "unitNumber": 1,
+    "title": "天地初开",
+    "subtitle": "宇宙初生 · 万象肇始",
+    "phrase1": "天地玄黄",
+    "pinyin1": "tiān dì xuán huáng",
+    "phrase2": "宇宙洪荒",
+    "pinyin2": "yǔ zhòu hóng huāng",
+    "fullText": "天地玄黄，宇宙洪荒。",
+    "fullPinyin": "tiān dì xuán huáng，yǔ zhòu hóng huāng。",
+    "meaning": "天是苍玄之色，地是深黄之土。宇宙苍穹广袤无垠，在远古时代是一片混沌与辽阔的洪荒世界。",
+    "illustration": "/assets/images/unit1_cosmos_earth_1792480198374.jpg",
+    "locationName": "竹林书院",
+    "characters": [
+      {
+        "id": "1-1",
+        "char": "天",
+        "pinyin": "tiān",
+        "toneNumber": 1,
+        "meaning": "苍穹、高空，在上方覆盖万物的广袤空间。",
+        "words": [
+          "天空",
+          "蓝天",
+          "晴天",
+          "天然"
+        ],
+        "example": "蓝蓝的天空飘着朵朵白云。",
+        "hotspotLabel": "碧蓝苍穹",
+        "hotspotX": 25,
+        "hotspotY": 20
+      },
+      {
+        "id": "1-2",
+        "char": "地",
+        "pinyin": "dì",
+        "toneNumber": 4,
+        "meaning": "大地、陆地，承载草木人类与万物的世界。",
+        "words": [
+          "大地",
+          "地面",
+          "田地",
+          "土地"
+        ],
+        "example": "春天到了，大地披上了绿装。",
+        "hotspotLabel": "辽阔山川",
+        "hotspotX": 28,
+        "hotspotY": 78
+      },
+      {
+        "id": "1-3",
+        "char": "玄",
+        "pinyin": "xuán",
+        "toneNumber": 2,
+        "meaning": "深青微黑之色，亦指深邃悠远的奥妙。",
+        "words": [
+          "玄妙",
+          "玄色",
+          "玄关",
+          "深玄"
+        ],
+        "example": "夜空呈现出神秘幽远的玄青色。",
+        "hotspotLabel": "玄妙星云",
+        "hotspotX": 48,
+        "hotspotY": 28
+      },
+      {
+        "id": "1-4",
+        "char": "黄",
+        "pinyin": "huáng",
+        "toneNumber": 2,
+        "meaning": "像黄金般的黄色，古人眼中大地泥土的祥和本色。",
+        "words": [
+          "黄金",
+          "黄色",
+          "金黄",
+          "黄河"
+        ],
+        "example": "金黄的麦浪在秋风中轻轻荡漾。",
+        "hotspotLabel": "金黄沃野",
+        "hotspotX": 72,
+        "hotspotY": 82
+      },
+      {
+        "id": "1-5",
+        "char": "宇",
+        "pinyin": "yǔ",
+        "toneNumber": 3,
+        "meaning": "上下四方所有的空间，房檐与广袤无尽的空间域。",
+        "words": [
+          "宇宙",
+          "宇航",
+          "器宇",
+          "气宇轩昂"
+        ],
+        "example": "宇航员乘着飞船在浩瀚太空中遨游。",
+        "hotspotLabel": "无垠宇境",
+        "hotspotX": 68,
+        "hotspotY": 22
+      },
+      {
+        "id": "1-6",
+        "char": "宙",
+        "pinyin": "zhòu",
+        "toneNumber": 4,
+        "meaning": "古往今来所有的时间长河，岁月流转。",
+        "words": [
+          "宇宙",
+          "宙斯",
+          "岁月如宙"
+        ],
+        "example": "宇宙不仅包含无边的空间，也包含无穷的时间。",
+        "hotspotLabel": "流转时序",
+        "hotspotX": 84,
+        "hotspotY": 34
+      },
+      {
+        "id": "1-7",
+        "char": "洪",
+        "pinyin": "hóng",
+        "toneNumber": 2,
+        "meaning": "大水，浩大广阔之气魄。",
+        "words": [
+          "洪水",
+          "宏伟",
+          "洪量",
+          "山洪"
+        ],
+        "example": "古代大禹治水，制服了奔腾的洪水。",
+        "hotspotLabel": "洪荒古流",
+        "hotspotX": 50,
+        "hotspotY": 72
+      },
+      {
+        "id": "1-8",
+        "char": "荒",
+        "pinyin": "huāng",
+        "toneNumber": 1,
+        "meaning": "远古未经开垦之原野，旷远苍凉。",
+        "words": [
+          "荒野",
+          "开荒",
+          "洪荒",
+          "荒原"
+        ],
+        "example": "在远古洪荒时代，大地上充满了神奇的奥秘。",
+        "hotspotLabel": "原始古原",
+        "hotspotX": 85,
+        "hotspotY": 76
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "unitNumber": 2,
+    "title": "日月星辰",
+    "subtitle": "昼夜循环 · 众星罗布",
+    "phrase1": "日月盈昃",
+    "pinyin1": "rì yuè yíng zè",
+    "phrase2": "辰宿列张",
+    "pinyin2": "chén xiù liè zhāng",
+    "fullText": "日月盈昃，辰宿列张。",
+    "fullPinyin": "rì yuè yíng zè，chén xiù liè zhāng。",
+    "meaning": "太阳升起又西斜，月亮盈满又亏缺。满天的星斗宿宿，按照运行规律井然有序地在夜空中铺展开来。",
+    "illustration": "/assets/images/unit1_cosmos_earth_1792480198374.jpg",
+    "locationName": "桃花溪谷",
+    "characters": [
+      {
+        "id": "2-1",
+        "char": "日",
+        "pinyin": "rì",
+        "toneNumber": 4,
+        "meaning": "太阳，白天，日出东方。",
+        "words": [
+          "太阳",
+          "日光",
+          "日记",
+          "日月"
+        ],
+        "example": "红彤彤的太阳从东方冉冉升起。",
+        "hotspotLabel": "杲杲红日",
+        "hotspotX": 80,
+        "hotspotY": 15
+      },
+      {
+        "id": "2-2",
+        "char": "月",
+        "pinyin": "yuè",
+        "toneNumber": 4,
+        "meaning": "月亮，夜间发光的皎洁天体。",
+        "words": [
+          "月亮",
+          "月光",
+          "明月",
+          "月牙"
+        ],
+        "example": "皎洁的月光洒在宁静的小池塘上。",
+        "hotspotLabel": "皎皎明月",
+        "hotspotX": 30,
+        "hotspotY": 25
+      },
+      {
+        "id": "2-3",
+        "char": "盈",
+        "pinyin": "yíng",
+        "toneNumber": 2,
+        "meaning": "充满、圆满，指月圆之态。",
+        "words": [
+          "充盈",
+          "丰盈",
+          "盈满",
+          "笑语盈盈"
+        ],
+        "example": "每逢农历十五，月亮便圆满充盈。",
+        "hotspotLabel": "月圆盈满",
+        "hotspotX": 35,
+        "hotspotY": 30
+      },
+      {
+        "id": "2-4",
+        "char": "昃",
+        "pinyin": "zè",
+        "toneNumber": 4,
+        "meaning": "太阳西斜下落。",
+        "words": [
+          "日昃",
+          "日中则昃"
+        ],
+        "example": "午后阳光西斜，称为日昃。",
+        "hotspotLabel": "日沉西山",
+        "hotspotX": 85,
+        "hotspotY": 45
+      },
+      {
+        "id": "2-5",
+        "char": "辰",
+        "pinyin": "chén",
+        "toneNumber": 2,
+        "meaning": "日月星辰之统称，亦指良辰吉时。",
+        "words": [
+          "星辰",
+          "时辰",
+          "良辰",
+          "诞辰"
+        ],
+        "example": "天空中闪烁的星辰如同一颗颗宝石。",
+        "hotspotLabel": "浩渺星辰",
+        "hotspotX": 52,
+        "hotspotY": 18
+      },
+      {
+        "id": "2-6",
+        "char": "宿",
+        "pinyin": "xiù",
+        "toneNumber": 4,
+        "meaning": "古代天文学将星空划分为二十八星宿（读xiù）。",
+        "words": [
+          "星宿",
+          "宿位",
+          "二十八宿"
+        ],
+        "example": "古人将璀璨的群星分成二十八星宿来辨别方向。",
+        "hotspotLabel": "星宿列布",
+        "hotspotX": 42,
+        "hotspotY": 32
+      },
+      {
+        "id": "2-7",
+        "char": "列",
+        "pinyin": "liè",
+        "toneNumber": 4,
+        "meaning": "排列、分布，有条不紊。",
+        "words": [
+          "排列",
+          "列队",
+          "行列",
+          "陈列"
+        ],
+        "example": "群星在银河两旁整齐地列布着。",
+        "hotspotLabel": "整饬排列",
+        "hotspotX": 58,
+        "hotspotY": 38
+      },
+      {
+        "id": "2-8",
+        "char": "张",
+        "pinyin": "zhāng",
+        "toneNumber": 1,
+        "meaning": "展开、布满，星罗棋布。",
+        "words": [
+          "张开",
+          "开张",
+          "夸张",
+          "紧张"
+        ],
+        "example": "灿烂的星斗在黑丝绒般的夜空中铺张开来。",
+        "hotspotLabel": "银汉展布",
+        "hotspotX": 65,
+        "hotspotY": 28
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "unitNumber": 3,
+    "title": "四时寒暑",
+    "subtitle": "寒来暑往 · 岁时收藏",
+    "phrase1": "寒来暑往",
+    "pinyin1": "hán lái shǔ wǎng",
+    "phrase2": "秋收冬藏",
+    "pinyin2": "qiū shōu dōng cáng",
+    "fullText": "寒来暑往，秋收冬藏。",
+    "fullPinyin": "hán lái shǔ wǎng，qiū shōu dōng cáng。",
+    "meaning": "寒冬来到，炎暑过去，四季不停更替。秋季收获金黄的粮谷，冬季将其妥善储藏备用。",
+    "illustration": "/assets/images/qianziwen_home_landscape_1792480197606.jpg",
+    "locationName": "青山古亭",
+    "characters": [
+      {
+        "id": "3-1",
+        "char": "寒",
+        "pinyin": "hán",
+        "toneNumber": 2,
+        "meaning": "寒冷，冬天的凉风冷气。",
+        "words": [
+          "寒冷",
+          "寒冬",
+          "严寒",
+          "防寒"
+        ],
+        "example": "冬天虽然寒冷，但孩子们在雪地里玩得很高兴。",
+        "hotspotLabel": "冬雪寒凉",
+        "hotspotX": 20,
+        "hotspotY": 30
+      },
+      {
+        "id": "3-2",
+        "char": "来",
+        "pinyin": "lái",
+        "toneNumber": 2,
+        "meaning": "到来、来临，时间向前流动。",
+        "words": [
+          "来到",
+          "未来",
+          "来年",
+          "迎来"
+        ],
+        "example": "春天悄悄地来到了人间。",
+        "hotspotLabel": "燕来春至",
+        "hotspotX": 30,
+        "hotspotY": 45
+      },
+      {
+        "id": "3-3",
+        "char": "暑",
+        "pinyin": "shǔ",
+        "toneNumber": 3,
+        "meaning": "炎热、酷暑，夏天的气温。",
+        "words": [
+          "暑假",
+          "炎暑",
+          "避暑",
+          "酷暑"
+        ],
+        "example": "烈日当空的盛夏正是炎暑季节。",
+        "hotspotLabel": "夏日清荷",
+        "hotspotX": 45,
+        "hotspotY": 60
+      },
+      {
+        "id": "3-4",
+        "char": "往",
+        "pinyin": "wǎng",
+        "toneNumber": 3,
+        "meaning": "离去、过去，岁月飞逝。",
+        "words": [
+          "往昔",
+          "过往",
+          "向往",
+          "前往"
+        ],
+        "example": "四季更替，寒暑往来不停歇。",
+        "hotspotLabel": "流水往返",
+        "hotspotX": 60,
+        "hotspotY": 70
+      },
+      {
+        "id": "3-5",
+        "char": "秋",
+        "pinyin": "qiū",
+        "toneNumber": 1,
+        "meaning": "秋天，落叶与丰收的季节。",
+        "words": [
+          "秋天",
+          "秋季",
+          "金秋",
+          "秋收"
+        ],
+        "example": "金色的秋天是硕果累累的好时节。",
+        "hotspotLabel": "秋色稻谷",
+        "hotspotX": 75,
+        "hotspotY": 65
+      },
+      {
+        "id": "3-6",
+        "char": "收",
+        "pinyin": "shōu",
+        "toneNumber": 1,
+        "meaning": "割取、收获，丰产的喜悦。",
+        "words": [
+          "收获",
+          "丰收",
+          "收入",
+          "收割"
+        ],
+        "example": "农民伯伯正在欢喜地收割稻谷。",
+        "hotspotLabel": "农人割禾",
+        "hotspotX": 82,
+        "hotspotY": 55
+      },
+      {
+        "id": "3-7",
+        "char": "冬",
+        "pinyin": "dōng",
+        "toneNumber": 1,
+        "meaning": "冬天，一年中的末尾季节。",
+        "words": [
+          "冬天",
+          "冬季",
+          "冬雪",
+          "初冬"
+        ],
+        "example": "冬天树林里积满了厚厚的白雪。",
+        "hotspotLabel": "雪覆山峦",
+        "hotspotX": 25,
+        "hotspotY": 20
+      },
+      {
+        "id": "3-8",
+        "char": "藏",
+        "pinyin": "cáng",
+        "toneNumber": 2,
+        "meaning": "储藏、隐蔽，收藏粮谷。",
+        "words": [
+          "收藏",
+          "藏书",
+          "宝藏",
+          "躲藏"
+        ],
+        "example": "冬天要把粮食妥善收藏在仓廪里。",
+        "hotspotLabel": "谷仓粮藏",
+        "hotspotX": 70,
+        "hotspotY": 40
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "unitNumber": 4,
+    "title": "律历调阳",
+    "subtitle": "立春闰余 · 音律谐和",
+    "phrase1": "闰余成岁",
+    "pinyin1": "rùn yú chéng suì",
+    "phrase2": "律吕调阳",
+    "pinyin2": "lǜ lǚ tiáo yáng",
+    "fullText": "闰余成岁，律吕调阳。",
+    "fullPinyin": "rùn yú chéng suì，lǜ lǚ tiáo yáng。",
+    "meaning": "古人推算历法，积累多余的岁差时辰为闰月成岁；用十二律吕竹管调谐天地间的阴阳生息之音。",
+    "illustration": "/assets/images/qianziwen_home_landscape_1792480197606.jpg",
+    "locationName": "云海仙桥",
+    "characters": [
+      {
+        "id": "4-1",
+        "char": "闰",
+        "pinyin": "rùn",
+        "toneNumber": 4,
+        "meaning": "历法中因日差而增加的闰月或闰年。",
+        "words": [
+          "闰年",
+          "闰月",
+          "余闰"
+        ],
+        "example": "农历通过设置闰月来使四季与太阳吻合。"
+      },
+      {
+        "id": "4-2",
+        "char": "余",
+        "pinyin": "yú",
+        "toneNumber": 2,
+        "meaning": "剩下、多出来的部分。",
+        "words": [
+          "多余",
+          "节余",
+          "业余"
+        ],
+        "example": "每天节余一点时间用来读书。"
+      },
+      {
+        "id": "4-3",
+        "char": "成",
+        "pinyin": "chéng",
+        "toneNumber": 2,
+        "meaning": "成就、形成、变成。",
+        "words": [
+          "成功",
+          "成长",
+          "成就"
+        ],
+        "example": "小树苗一天天长成参天大树。"
+      },
+      {
+        "id": "4-4",
+        "char": "岁",
+        "pinyin": "suì",
+        "toneNumber": 4,
+        "meaning": "一年，年龄，光阴。",
+        "words": [
+          "岁月",
+          "年岁",
+          "岁末"
+        ],
+        "example": "新年到了，我们又长大了一岁。"
+      },
+      {
+        "id": "4-5",
+        "char": "律",
+        "pinyin": "lǜ",
+        "toneNumber": 4,
+        "meaning": "古代十二音律中的阳律，音调与规则。",
+        "words": [
+          "节律",
+          "音律",
+          "自律"
+        ],
+        "example": "同学们在课堂上自觉遵守纪律。"
+      },
+      {
+        "id": "4-6",
+        "char": "吕",
+        "pinyin": "lǚ",
+        "toneNumber": 3,
+        "meaning": "古代十二律中的阴律管，亦为姓氏。",
+        "words": [
+          "律吕",
+          "钟吕"
+        ],
+        "example": "古代乐师用黄钟律吕调校美妙的乐声。"
+      },
+      {
+        "id": "4-7",
+        "char": "调",
+        "pinyin": "tiáo",
+        "toneNumber": 2,
+        "meaning": "调和、配合、使和谐。",
+        "words": [
+          "调和",
+          "调理",
+          "调整"
+        ],
+        "example": "各种乐器配合得当，调奏出优美的乐曲。"
+      },
+      {
+        "id": "4-8",
+        "char": "阳",
+        "pinyin": "yáng",
+        "toneNumber": 2,
+        "meaning": "阳光、向阳处、温暖的生气。",
+        "words": [
+          "太阳",
+          "阳光",
+          "朝阳"
+        ],
+        "example": "明媚的阳光照耀着大地。"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "unitNumber": 5,
+    "title": "云雨霜雪",
+    "subtitle": "云腾致雨 · 露结为霜",
+    "phrase1": "云腾致雨",
+    "pinyin1": "yún téng zhì yǔ",
+    "phrase2": "露结为霜",
+    "pinyin2": "lù jié wéi shuāng",
+    "fullText": "云腾致雨，露结为霜。",
+    "fullPinyin": "yún téng zhì yǔ，lù jié wéi shuāng。",
+    "meaning": "水汽蒸腾凝升为云彩降下甘霖；秋夜清凉的露水凝聚，到了严冬便结成晶莹的寒霜。",
+    "illustration": "/assets/images/unit1_cosmos_earth_1792480198374.jpg",
+    "locationName": "荷塘月色",
+    "characters": [
+      {
+        "id": "5-1",
+        "char": "云",
+        "pinyin": "yún",
+        "toneNumber": 2,
+        "meaning": "水汽上升凝结而成的白云、彩云。",
+        "words": [
+          "白云",
+          "云朵",
+          "彩云"
+        ],
+        "example": "蓝天上的白云像棉花糖一样松软。"
+      },
+      {
+        "id": "5-2",
+        "char": "腾",
+        "pinyin": "téng",
+        "toneNumber": 2,
+        "meaning": "奔腾、升腾、向上飞跃。",
+        "words": [
+          "升腾",
+          "欢腾",
+          "龙腾虎跃"
+        ],
+        "example": "山谷间升腾起轻柔的晨雾。"
+      },
+      {
+        "id": "5-3",
+        "char": "致",
+        "pinyin": "zhì",
+        "toneNumber": 4,
+        "meaning": "招引、达到、导致。",
+        "words": [
+          "引致",
+          "专心致志",
+          "景致"
+        ],
+        "example": "水汽凝聚到高空引致降下了雨水。"
+      },
+      {
+        "id": "5-4",
+        "char": "雨",
+        "pinyin": "yǔ",
+        "toneNumber": 3,
+        "meaning": "从云层降落的水滴。",
+        "words": [
+          "春雨",
+          "细雨",
+          "雨滴"
+        ],
+        "example": "淅淅沥沥的春雨滋润了庄稼。"
+      },
+      {
+        "id": "5-5",
+        "char": "露",
+        "pinyin": "lù",
+        "toneNumber": 4,
+        "meaning": "草叶上凝结的晶莹水珠。",
+        "words": [
+          "晨露",
+          "露珠",
+          "白露"
+        ],
+        "example": "早晨荷叶上滚滚晃动的露珠真惹人喜爱。"
+      },
+      {
+        "id": "5-6",
+        "char": "结",
+        "pinyin": "jié",
+        "toneNumber": 2,
+        "meaning": "凝结、结合、打结。",
+        "words": [
+          "凝结",
+          "团结",
+          "结果"
+        ],
+        "example": "天冷了，河面上凝结了一层薄冰。"
+      },
+      {
+        "id": "5-7",
+        "char": "为",
+        "pinyin": "wéi",
+        "toneNumber": 2,
+        "meaning": "成为、作为、化作。",
+        "words": [
+          "化为",
+          "成为",
+          "为人"
+        ],
+        "example": "小水滴在寒冷中化为了晶莹的霜花。"
+      },
+      {
+        "id": "5-8",
+        "char": "霜",
+        "pinyin": "shuāng",
+        "toneNumber": 1,
+        "meaning": "接近地面的水汽遇冷凝华成的白色冰晶。",
+        "words": [
+          "冰霜",
+          "秋霜",
+          "风霜"
+        ],
+        "example": "深秋清晨，青草上覆盖着一层薄薄的白霜。"
+      }
+    ]
+  }
+]
