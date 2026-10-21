@@ -36,6 +36,8 @@ export interface QianziwenUnit {
   fullText: string;
   fullPinyin: string;
   meaning: string;
+  meaning1: string; // 句一解释（前四字）
+  meaning2: string; // 句二解释（后四字）
   characters: CharacterItem[];
   illustration: string;
   locationName: string; // e.g. "竹林书院", "青山古亭"

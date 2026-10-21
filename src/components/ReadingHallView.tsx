@@ -311,10 +311,16 @@ export const ReadingHallView: React.FC<ReadingHallProps> = ({
               </div>
             </div>
 
-            {/* Meaning Callout */}
-            <p className="text-xs sm:text-sm text-[#6C5E4E] font-guofeng max-w-xl mx-auto leading-relaxed italic bg-white/50 p-3 rounded-xl border border-[#E3DAC8]">
-              『{currentUnit.meaning}』
-            </p>
+            {/* Meaning Callout - 全篇通译 */}
+            <div className="max-w-xl mx-auto text-left bg-white/70 backdrop-blur-xs p-3.5 sm:p-4 rounded-2xl border border-[#E3DAC8] shadow-2xs font-guofeng">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-[#8B7865] border-b border-[#E8DFC8] pb-1.5 mb-2">
+                <span className="w-1.5 h-3 bg-[#3F5E4D] rounded-full inline-block"></span>
+                <span>古韵译注 · 全篇通译</span>
+              </div>
+              <p className="text-xs sm:text-sm text-[#3D3024] leading-relaxed">
+                {currentUnit.meaning}
+              </p>
+            </div>
           </div>
 
           {/* Action Bar */}

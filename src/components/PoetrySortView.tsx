@@ -262,6 +262,10 @@ export const PoetrySortView: React.FC<PoetrySortProps> = ({
                 {fullTargetVerse}
               </div>
 
+              <div className="text-xs sm:text-sm text-[#4E4034] font-guofeng max-w-lg mx-auto bg-white/80 p-2.5 rounded-xl border border-[#C5D9CB]">
+                <p><span className="font-bold text-[#3F5E4D]">【全篇通译】：</span>{currentUnit.meaning}</p>
+              </div>
+
               <div className="flex items-center justify-center gap-3">
                 <button
                   onClick={() => sound.speak(fullTargetVerse)}

@@ -5,6 +5,7 @@ import { getTone } from '../src/utils/pinyin.js';
 const dataDir = new URL('../src/data/', import.meta.url);
 const source = JSON.parse(fs.readFileSync(new URL('qianziwenSource.json', dataDir), 'utf8'));
 const details = JSON.parse(fs.readFileSync(new URL('qianziwenDetails.json', dataDir), 'utf8'));
+const meaningsMap = JSON.parse(fs.readFileSync(new URL('qianziwenMeanings.json', dataDir), 'utf8'));
 const landmarks = ['竹林书院','桃花溪谷','青山古亭','皇极宫阙','将相台榭','烟雨田园','向学雅筑','千字大成阁'];
 const periods = [];
 const units = [];
@@ -20,11 +21,17 @@ for (const [periodIndex, period] of source.periods.entries()) {
     const pinyin1 = pairs.slice(0,4).map(c=>c.pinyin).join(' ');
     const pinyin2 = pairs.slice(4).map(c=>c.pinyin).join(' ');
     const fullText = `${phrase1}，${phrase2}。`;
+    const meaningEntry = meaningsMap[id] || {};
+    const meaning1 = meaningEntry.meaning1 || `${phrase1}的古训意蕴。`;
+    const meaning2 = meaningEntry.meaning2 || `${phrase2}的深远含义。`;
+    const meaning = meaningEntry.meaning || original?.meaning || `${meaning1} ${meaning2}`;
     units.push({
       ...original, id, unitNumber:id, periodNumber, periodTitle:period.title,
       title:original?.title ?? `${phrase1} · ${phrase2}`, subtitle:`第${periodNumber}期 · ${period.title}`,
       phrase1,phrase2,pinyin1,pinyin2,fullText,fullPinyin:`${pinyin1}，${pinyin2}。`,
-      meaning:original?.meaning ?? `原文：${fullText}`,
+      meaning,
+      meaning1,
+      meaning2,
       illustration:`/assets/lessons/lesson-${String(id).padStart(3,'0')}.jpg`,
       locationName:landmarks[periodIndex],
       characters:pairs.map((c,i)=>({

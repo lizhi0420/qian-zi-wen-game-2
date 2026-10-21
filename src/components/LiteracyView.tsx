@@ -189,9 +189,26 @@ export const LiteracyView: React.FC<LiteracyViewProps> = ({
             </div>
           </div>
 
-          <p className="text-sm sm:text-base text-[#615243] font-guofeng max-w-2xl mx-auto leading-relaxed bg-[#F3EDE0]/60 p-3 rounded-xl border border-[#E5DAC8]">
-            {currentUnit.meaning}
-          </p>
+          {/* 原文通释板块 */}
+          <div className="max-w-2xl mx-auto mt-4 bg-[#F3EDE0]/80 p-3.5 sm:p-4 rounded-2xl border border-[#E3DAC8] shadow-2xs text-left">
+            <div className="flex items-center justify-between text-xs font-bold text-[#8B7865] pb-2 border-b border-[#E5DAC8] mb-2.5 font-guofeng">
+              <span className="flex items-center gap-1.5">
+                <span className="w-1.5 h-3 bg-[#3F5E4D] rounded-full inline-block"></span>
+                <span>原文释义 · 全篇通译</span>
+              </span>
+              <button
+                onClick={() => sound.speak(currentUnit.meaning)}
+                title="听译文朗读"
+                className="flex items-center gap-1 text-[11px] text-[#3F5E4D] hover:text-[#284937] px-2.5 py-1 rounded-lg bg-white/80 hover:bg-white border border-[#D8CBB6] transition-colors cursor-pointer shadow-2xs font-sans"
+              >
+                <Volume2 className="w-3.5 h-3.5" />
+                <span>听译文朗读</span>
+              </button>
+            </div>
+            <p className="text-sm sm:text-base text-[#4E4034] font-guofeng leading-relaxed">
+              {currentUnit.meaning}
+            </p>
+          </div>
         </div>
       </section>
 

@@ -188,8 +188,8 @@ export const AdventureMapView: React.FC<AdventureMapProps> = ({
           <h3 className="text-xl sm:text-2xl font-black text-[#2A2421] font-guofeng">
             第 {currentUnit.unitNumber} 单元 · {currentUnit.fullText}
           </h3>
-          <p className="text-xs sm:text-sm text-[#6C5E4E] max-w-xl">
-            {currentUnit.meaning}
+          <p className="text-xs sm:text-sm text-[#6C5E4E] max-w-xl font-guofeng leading-relaxed">
+            <span className="font-bold text-[#3F5E4D]">【全篇通译】</span>{currentUnit.meaning}
           </p>
         </div>
 
